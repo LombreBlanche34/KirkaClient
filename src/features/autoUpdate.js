@@ -17,6 +17,7 @@ async function autoUpdate(contents) {
 
             let res = await fetch('https://github.com/AwesomeSam9523/KirkaClient/releases/latest/download/version.txt')
             let text = await res.text();
+            text = text.split('\n')[0];
             if (text != version) {
                 await downloadUpdate(contents)
                 resolve(true);
