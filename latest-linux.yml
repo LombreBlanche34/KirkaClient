@@ -1,9 +1,0 @@
-version: 2.1.0
-files:
-  - url: kirkaclient-2.1.0.AppImage
-    sha512: 42vcy/MC8SynStzfhMOWvov8wLdvxUInf67g/DG+ofgtJ35cIXSZ2yc5BhEDVCc09+6fzNFY3Sl1HeUzPEauDQ==
-    size: 79857825
-    blockMapSize: 84149
-path: kirkaclient-2.1.0.AppImage
-sha512: 42vcy/MC8SynStzfhMOWvov8wLdvxUInf67g/DG+ofgtJ35cIXSZ2yc5BhEDVCc09+6fzNFY3Sl1HeUzPEauDQ==
-releaseDate: '2021-10-03T10:17:38.132Z'
