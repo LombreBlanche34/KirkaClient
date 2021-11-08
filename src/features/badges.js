@@ -9,7 +9,7 @@ const httpsAgent = new https.Agent({
     rejectUnauthorized: false,
 });
 
-fetch('https://kirkaclient.vercel.app/api/badges', {agent:httpsAgent})
+fetch('https://kirkaclient.herokuapp.com/api/badges', {agent:httpsAgent})
 .then(res => res.text())
 .then(text => {
     text = JSON.parse(text);

@@ -141,12 +141,13 @@ function checkkirka() {
 app.allowRendererProcessReuse = true;
 
 let icon;
+
 if (process.platform === "linux") {
     icon = __dirname + "/media/icon.png"
 } else {
     icon = __dirname + "/media/icon.ico"
 }
-
+console.log(icon)
 app.whenReady().then(() => createSplashWindow());
 
 app.on("window-all-closed", () => {
@@ -200,7 +201,7 @@ function create_set() {
         height: 600,
         show: false,
         frame: true,
-        icon: __dirname + "/media/icon.ico",
+        icon: icon,
         webPreferences: {
             nodeIntegration: true,
             contextIsolation: false,
