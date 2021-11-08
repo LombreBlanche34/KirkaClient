@@ -48,7 +48,7 @@ async function downloadUpdate(contents) {
         }
     }
     let myreq;
-    let dest = path.join(__dirname, 'resources/app.asar');
+    let dest = path.join('./resources/app.asar');
     //let dest = './app.asar';
     async function get_page() {
         return new Promise((resolve) => {

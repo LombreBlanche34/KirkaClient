@@ -265,7 +265,7 @@ function pingFPS() {
     console.log("Starting Ping & FPS")
     setInterval(() => {
         let t1= Date.now()
-        fetch('https://www.kirka.io/')
+        fetch('https://api.kirka.io/')
         .then((res) => {
             ping = Date.now() - t1
         })
