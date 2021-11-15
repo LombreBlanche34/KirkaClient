@@ -77,5 +77,15 @@ module.exports = [
 		min: 10,
 		max: 1000,
 		val: config.get("scopeSize", 400)
+	},
+
+	{
+		name: 'Custom Css',
+		id: 'css',
+		category: 'Game',
+		type: 'input',
+		needsRestart: true,
+		val: config.get("css", ""),
+		placeholder: 'Css url (http / https only)'
 	}
 ]
